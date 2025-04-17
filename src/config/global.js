@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad: 'Fundamentos de los procesos industriales ',
   },
   menuPrincipal: {
     menu: [
@@ -15,19 +15,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo:
+          'Conceptos básicos y clasificación de los procesos industriales',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Principales conceptos de los procesos industriales',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Clasificación de los procesos industriales',
             hash: 't_1_2',
           },
         ],
@@ -36,26 +37,36 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo:
+          'Importancia de los procesos industriales en la cadena de valor',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Reducción de costos mediante automatización y digitalización',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Mejora en la calidad y personalización de productos',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Adaptabilidad a la demanda del mercado y optimización del tiempo de producción',
             hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo:
+              'Integración de la inteligencia artificial y el IoT, para la toma de decisiones basada en datos',
+            hash: 't_2_4',
           },
         ],
       },
@@ -63,20 +74,39 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo:
+          'Factores que afectan la eficiencia y productividad de los procesos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Tecnología y automatización',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Gestión de recursos',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Condiciones ambientales y regulatorias',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Calidad y control de procesos',
+            hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: 'Uso de la Inteligencia Artificial y el análisis de datos',
+            hash: 't_3_5',
           },
         ],
       },
@@ -118,14 +148,23 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'García Moreno, E. (2020). <i>Automatización de procesos industriales: robótica y automática</i>. Editorial de la Universidad Politécnica de Valencia. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/129686',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Medina, J. L. (2015). <i>La automatización en la industria química</i>. Universitat Politècnica de Catalunya. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/61458 ',
+    },
+    {
+      referencia:
+        'Pérez García, F. (Dir.), Benages Candau, E. & Pla-Barber, J. (2020). <i>La competitividad española en las cadenas de valor globales</i>. Fundación BBVA. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/171353 ',
+    },
+    {
+      referencia:
+        'Joanidis, C. (2020). <i>Mejorar para ganar: la transformación basada en procesos paso a paso</i>. Pluma Digital Ediciones. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/131582 ',
     },
   ],
   glosario: [
