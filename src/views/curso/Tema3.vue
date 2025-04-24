@@ -72,7 +72,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up")  Gestión de recursos
             p.mb-4(data-aos="fade-right") En el PDF #[b Gestión de recursos], se analizan los principales factores que intervienen en esta gestión, como la optimización de la materia prima, el uso eficiente de la energía y la sostenibilidad, así como la adecuada administración del talento humano. A través de ejemplos reales y metodologías aplicadas en distintos sectores, se evidencian las ventajas de integrar tecnologías como el Internet de las Cosas y la inteligencia artificial, para mejorar la planificación, reducir costos y aumentar el valor agregado en los procesos productivos.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.docx')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

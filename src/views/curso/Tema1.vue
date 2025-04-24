@@ -280,7 +280,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Eficiencia y eficacia
             p.mb-4(data-aos="fade-right") La comprensión de los conceptos de eficiencia y eficacia, es esencial para el análisis y la mejora de los procesos industriales, dado que permite evaluar el uso adecuado de los recursos y el cumplimiento de los objetivos productivos. En el PDF #[b Eficiencia y eficacia], se presentan las diferencias claves entre estos dos términos, su aplicación individual y conjunta en distintos sectores industriales, y las herramientas más utilizadas para su medición. Asimismo, se analizan casos reales y el impacto de tecnologías como la inteligencia artificial en la optimización de procesos, brindando al lector una visión práctica y estratégica, para su implementación en entornos productivos reales.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.docx')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
