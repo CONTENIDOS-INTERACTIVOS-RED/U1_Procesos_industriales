@@ -169,14 +169,79 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Automatización',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Uso de tecnología para realizar tareas sin intervención humana, mejorando eficiencia y reduciendo los costos.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Cadena de valor',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Conjunto de actividades que una empresa realiza para generar valor y obtener ventaja competitiva.',
+    },
+    {
+      termino: 'Eficiencia',
+      significado:
+        'Capacidad de lograr objetivos con el menor uso posible de recursos.',
+    },
+    {
+      termino: 'Eficacia',
+      significado:
+        'Grado en que se alcanzan los objetivos planteados, sin considerar los recursos utilizados.',
+    },
+    {
+      termino: 'Industria 4.0',
+      significado:
+        'Integración de tecnologías digitales en la industria, para mejorar la producción y la eficiencia.',
+    },
+    {
+      termino: 'Ingeniería industrial',
+      significado:
+        'Disciplina que optimiza procesos productivos para mejorar la eficiencia y la calidad en la industria.',
+    },
+    {
+      termino: 'Inteligencia Artificial',
+      significado:
+        'Uso de algoritmos y modelos computacionales, para mejorar la toma de decisiones y procesos industriales.',
+    },
+    {
+      termino: 'Manufactura discreta',
+      significado:
+        'Producción de bienes como unidades individuales o ensamblaje de componentes diferenciados.',
+    },
+    {
+      termino: 'Manufactura continua',
+      significado:
+        'Producción ininterrumpida de bienes homogéneos con alto nivel de automatización.',
+    },
+    {
+      termino: 'Matriz de impacto',
+      significado:
+        'Herramienta de análisis para evaluar el impacto social, ambiental y económico, de proyectos empresariales.',
+    },
+    {
+      termino: 'Optimización de recursos',
+      significado:
+        'Gestión eficiente de materiales, tiempo y capital humano, para maximizar productividad.',
+    },
+    {
+      termino: 'Productividad',
+      significado:
+        'Relación entre bienes o servicios producidos y recursos utilizados en su fabricación.',
+    },
+    {
+      termino: 'Procesos industriales',
+      significado:
+        'Conjunto de técnicas y métodos para transformar materias primas, en productos terminados.',
+    },
+    {
+      termino: 'Sistemas de producción',
+      significado:
+        'Estructura que permite la conversión de insumos en bienes o servicios, de manera eficiente.',
+    },
+    {
+      termino: 'Sostenibilidad empresarial',
+      significado:
+        'Integración de prácticas económicas, ambientales y sociales, para garantizar el desarrollo sostenible.',
     },
   ],
 }

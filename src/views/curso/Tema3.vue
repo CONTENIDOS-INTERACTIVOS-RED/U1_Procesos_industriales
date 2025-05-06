@@ -144,8 +144,7 @@
             div.bg-color-white.box-shadow.px-4.py-5.h-100.br-1
               img.mx-auto.d-block.mb-4(src="@/assets/curso/temas/65.svg" alt="" style="width: 90px")
               h5.text-center Control estadístico de procesos (SPC)
-              p.mb-0.text-center Supervisión en tiempo real de 
-              la producción. 
+              p.mb-0.text-center Supervisión en tiempo real de la producción. 
 
           div.col-lg-4.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100.br-1
@@ -175,7 +174,7 @@
           ul.lista-ul--color
             li.d-flex
               i.far.fa-arrow-alt-circle-right.color-1
-              p.mb-0 #[b Mantenimiento predictivo]/ Reducción de fallas en equipos, mediante el análisis de datos históricos.
+              p.mb-0 #[b Mantenimiento predictivo]. Reducción de fallas en equipos, mediante el análisis de datos históricos.
             li.d-flex
               i.far.fa-arrow-alt-circle-right.color-1
               p.mb-0 #[b Optimización de la producción]. Ajuste dinámico de líneas de manufactura en función de la demanda del mercado.
@@ -246,7 +245,7 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema: 'DIAGNÓSTICO EMPRESARIAL',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -255,28 +254,28 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál es el objetivo principal del diagnóstico empresarial?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'Identificar oportunidades de mejora y fortalezas.',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Describir la historia de la empresa y sus logros.',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Presentar los resultados financieros actuales.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Comparar la empresa con sus competidores directos.',
                 esCorrecta: false,
               },
             ],
@@ -286,28 +285,28 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Qué aspecto se analiza en el entorno interno de la empresa?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'La situación económica global y sus tendencias.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto: 'Los procesos, recursos y cultura organizacional.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'El comportamiento de los clientes potenciales.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Las estrategias comerciales de los competidores.',
                 esCorrecta: false,
               },
             ],
@@ -317,28 +316,29 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Cuál de las siguientes herramientas se usa comúnmente en un diagnóstico empresarial?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Diagrama de Gantt para la planificación de tiempos.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto:
+                  'Análisis FODA para evaluar la situación interna y externa.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Método Kanban para la gestión de tareas.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Benchmarking para establecer metas de producción.',
                 esCorrecta: false,
               },
             ],
@@ -347,29 +347,30 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Qué área es clave para evaluar el desempeño financiero en una empresa?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'La gestión del talento humano y la motivación.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
+                texto: 'La planificación de campañas de mercadeo.',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'La estructura organizacional y jerarquías.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
-                esCorrecta: false,
+                texto: 'El análisis de los estados financieros básicos.',
+                esCorrecta: true,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -378,28 +379,28 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Cuál es un resultado esperado tras realizar un diagnóstico empresarial?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'La mejora en la producción a corto plazo.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto: 'Un informe detallado con recomendaciones estratégicas.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'La creación de una nueva estructura organizacional.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'El incremento inmediato de las ventas.',
                 esCorrecta: false,
               },
             ],
